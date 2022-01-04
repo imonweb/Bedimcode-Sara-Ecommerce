@@ -10,7 +10,7 @@
 
 /*===== Colors =====*/
 :root {
-  --second-color: #E55947;
+  --first-color: #E55947;
   --second-color-alt: #D2321E;
   --white-color: #FAFAFF;
   --dark-color: #101010;
@@ -111,5 +111,10 @@ img {
   }
 }
 
-
+ 
+/* ====== Buttons ====== */
+.button {
+  display: inline-block;
+  background-color: var(--first-color);
+}
  

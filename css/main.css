@@ -9,7 +9,7 @@
 
 /*===== Colors =====*/
 :root {
-  --second-color: #E55947;
+  --first-color: #E55947;
   --second-color-alt: #D2321E;
   --white-color: #FAFAFF;
   --dark-color: #101010;
@@ -109,6 +109,12 @@ img {
   margin-bottom: var(--mb-2);
 }
 
+/* ====== Buttons ====== */
+.button {
+  display: inline-block;
+  background-color: var(--first-color);
+}
+
 .bg-grid {
   min-width: 1024px;
   display: grid;
@@ -183,5 +189,36 @@ img {
 
 .active {
   color: var(--second-color);
+}
+
+.home {
+  background-color: var(--gray-color);
+}
+
+.home__container {
+  height: calc(100vh - var(--header-height));
+}
+
+.home__data {
+  padding-top: 6rem;
+}
+
+.home__title {
+  align-self: center;
+  font-size: var(--big-font-size);
+  line-height: 1;
+  letter-spacing: .5rem;
+  margin-bottom: 4rem;
+}
+
+.home__title span {
+  font-size: var(--h1-font-size);
+}
+
+.home__img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 260px;
 }
 /*# sourceMappingURL=main.css.map */
